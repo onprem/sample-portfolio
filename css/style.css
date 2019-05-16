@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+html, body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Special Elite', cursive;
+	color: white;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	height: 100vh;
+	width: 100%;
+	background: url('../assets/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+nav {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	line-height: 60px;
+	font-size: 1.4em;
+	position: fixed;
+}
+.nav-center {
+	font-size: 1.3em;
+}
+.nav-left {
+	margin-right: 60px;
+	text-align: right;
+}
+.nav-right {
+	margin-left: 60px;
+	text-align: left;
+}
+nav div a {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.greeting {
+	text-align: center;
+	margin-top: 150px;
+}
+.greeting h1 {
+	font-size: 4.5em;
+}
+.greeting h3 {
+	font-size: 2.5em;
+}
+
+#about {
+	height: 50vh;
+	width: 100%;
+	background: #fd6274;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 0 50px;
+}
+#about p {
+	width: 80%;
+}
+
+#projects {
+	height: 50vh;
+	width: 100%;
+	background: #b3a9b6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#contact {
+	height: 50vh;
+	width: 100%;
+	background: #271724;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
